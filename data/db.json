@@ -1,0 +1,7 @@
+{
+    "yapilacaklar":[
+        {"id":1,"baslik":"kitap oku","icerik":"Harry Potter kitabondan 30sayfa oku hacım","yapildi":true},
+        {"id":2,"baslik":"Dizi izle","icerik":"Sherloc Holmes 2. sezon 3. bölüm izle","yapildi":false},
+        {"id":3,"baslik":"Alışveriş yap","icerik":"sebze meyve al","yapildi":false}
+    ]
+}
