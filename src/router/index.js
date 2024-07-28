@@ -1,11 +1,24 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import YapilacakEkle from '@/views/YapilacakEkle.vue'
+import YapilacakGuncelle from '@/views/YapilacakGuncelle.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
+  },
+  {
+    path: '/yapilacak-ekle',
+    name: 'YapilacakEkle',
+    component: YapilacakEkle
+  },
+  {
+    path: '/yapilacak-guncelle/:id',
+    name: 'YapilacakGuncelle',
+    component: YapilacakGuncelle,
+    props:true
   }
 
 ]

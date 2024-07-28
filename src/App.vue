@@ -1,11 +1,22 @@
 <template>
-  <router-view/>
+  <div>
+    <Navbar/>
+    <router-view />
+  </div>
 </template>
-
+<script>
+import Navbar from './components/Navbar.vue';
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 <style>
-body{
+body {
   background-color: #2f3542;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
